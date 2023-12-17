@@ -1,8 +1,8 @@
 # NAMES TO SET 
 # !! Make sure to also set the folders the same name
 set(PRJECT_NAME Engine)
-set(CORE_NAME Renderer)
-set(APPLICATON_NAME Application)
+set(CORE_NAME Core)
+set(APPLICATON_NAME App)
 
 cmake_minimum_required(VERSION 3.10)
 project(${PRJECT_NAME})
