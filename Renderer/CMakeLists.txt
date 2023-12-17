@@ -28,8 +28,9 @@ target_link_directories(${CORE_NAME} PUBLIC
 
 # Link libraries
 target_link_libraries(${CORE_NAME} PRIVATE
+    $<$<CONFIG:Debug>:Debug/glfw3>
+    $<$<CONFIG:Release>:Release/glfw3>
     glew32s
-    glfw3
     opengl32
     glu32
 )

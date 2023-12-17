@@ -1,6 +1,7 @@
 # NAMES TO SET 
+# !! Make sure to also set the folders the same name
 set(PRJECT_NAME Engine)
-set(CORE_NAME 3D-Renderer)
+set(CORE_NAME Renderer)
 set(APPLICATON_NAME Application)
 
 cmake_minimum_required(VERSION 3.10)
