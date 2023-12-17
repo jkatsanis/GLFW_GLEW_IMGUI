@@ -1,6 +1,6 @@
 # Core/CMakeLists.txt
 
-set(PATH_LIBRARIES ${CMAKE_SOURCE_DIR}/3D-Renderer/Source/Libs)
+set(PATH_LIBRARIES ${CMAKE_SOURCE_DIR}/${CORE_NAME}/Source/Libs)
 
 # Globbing source files
 file(GLOB_RECURSE RENDERER_SOURCE_FILES
